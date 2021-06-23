@@ -9,8 +9,8 @@ type User = {
 
 
 type AuthContextType = {
-user: User | undefined;
-signInWithGoogle: () => Promise<void>;
+  user: User | undefined;
+  signInWithGoogle: () => Promise<void>;
 }
 
 type AuthContextProviderProps = {
